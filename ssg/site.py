@@ -1,5 +1,5 @@
-from pathlib import Path
 import sys
+from pathlib import Path
 
 class Site:
     def __init__(self, source, dest, parsers=None):
@@ -33,4 +33,4 @@ class Site:
 
     @staticmethod
     def error(message):
-        sys.stderr.write("\xlb[1;31m{}\n").format(message)
+        sys.stderr.write("\xlb[1;31m{}\n").format(message))
