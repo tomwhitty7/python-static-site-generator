@@ -31,6 +31,6 @@ class Site:
             elif path.is_file():
                 self.run_parser(path)
 
-    @statismethod
+    @staticmethod
     def error(message):
         sys.stderr.write("\xlb[1;31m{}\n").format(message)
